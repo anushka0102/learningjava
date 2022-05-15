@@ -7,7 +7,7 @@ public static void main(String[] args) {
 		int n = a.length;
 		
 		array obj = new array();
-		obj.delete(a, n, 3);
+		n=obj.delete(a, n, 3);
 		obj.print_array(a, n);
 		
 	}
@@ -17,15 +17,15 @@ public static void main(String[] args) {
 class array 
 {
 	int i;
-	int[] delete(int []a, int n, int index)
+	int delete(int []a, int n, int index)
 	{
 		
-		for(i = index + 1; i < n; i++)
+		for(i = index; i < n-1; i++)
 		{
-			a[i - 1] = a[i];
+			a[i] = a[i+1];
 		}
 		a[n - 1] = 0;
-		return a;
+		return n-1;
 	}
 	
 	void print_array(int []a ,int n)

@@ -17,7 +17,7 @@ class ParentClass{
 	int a=10; //default protection!
 	public int b= 20;  //can be accessed outside unit_02 package but within same project
 	protected int c= 30;  //can only be accessed within unit_02 package
-	private int d= 40;  //within parentclass only, not even in its sub class
+	private int d= 40;  //within parent class only, not even in its sub class
 	
 	void showData() {
 		System.out.println("inside ParentClass: ");

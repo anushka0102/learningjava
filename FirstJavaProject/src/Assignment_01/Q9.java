@@ -37,7 +37,6 @@ class ParentClass{
 		System.out.println("d = " + d);
 	}
 }
-
 class ChildClass extends ParentClass{
 	
 	void accessData() {

@@ -7,12 +7,12 @@ public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int a = s.nextInt();
 		int b = s.nextInt();
-		
-		a = (a > b)?obj.add(a, b):obj.sub(a, b);
-	}
-
+	
+		int x = (a > b)?obj.add(a, b):obj.sub(a, b);
+	
+	System.out.println(x);
 }
-
+}
 
 class arithmetic
 {
@@ -23,6 +23,7 @@ class arithmetic
 	
 	int sub(int a, int b)
 	{
+	    
 		int res = a - b;
 		if(res < 0)
 		{

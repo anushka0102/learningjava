@@ -14,12 +14,17 @@
  *      Static Variables-
  *      - static variables are defined with the STATIC keyword
  *      - Static variables are initialized only once, at the start of the program execution.
- *      - These static variables should be initialized first, before, the initialization of any
+ *      - These static variables should be initialized first, before, the initialization of any method
  *      
  *   - Data Types in Java?
  *   . Reference OneNote
- *   
- *      
+ *     -Primitive data types: The primitive data types include boolean, char, byte, short, int, long, float and double.
+ *     -Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.
+ *     
+ *     Why char uses 2 byte in java and what is \u0000 ?
+ *     It is because java uses Unicode system not ASCII code system. The \u0000 is the lowest range of Unicode system.
+ *     Unicode is a universal international standard character encoding that is capable of representing most of the 
+ *     world's written languages.
  */
 
 public class P3_Task01_VariablesAndDataTypes {
@@ -66,6 +71,19 @@ public class P3_Task01_VariablesAndDataTypes {
 		
 		/*
 		 * Java Variable Type Conversion & Type Casting: Details are in OneNote
+		 * 
+		 * The process of converting a value from one data type to another is known as type conversion in Java.
+		 * Automatic conversion (casting) done by Java compiler internally is called implicit conversion or implicit type casting in 
+		 * java.
+		 * Implicit casting is performed to convert a lower data type into a higher data type.
+		 * 
+		 * The conversion of an int value to byte is an incompatible type and it cannot be performed automatically by Java compiler 
+		 * because byte is smaller than int.
+		 * Similarly, no automatic conversion will take place from double to byte. 
+		 * These kinds of conversions can be done by using a technique called explicit casting.
+		 * 
+		 * we cannot convert a primitive data type into an advanced (referenced) data type by using type casting. 
+		 * For this case, we will have to use methods of Java Wrapper classes.
 		 */
 		
 		double f;

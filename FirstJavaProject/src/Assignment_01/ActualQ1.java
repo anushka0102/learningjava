@@ -13,7 +13,7 @@ public class ActualQ1 {
 		//Getting the result 
 		Student result = new Student();
 		result.get_avg();
-		
+	    System.out.println("Q1");
 
 	}
 
@@ -24,7 +24,7 @@ class Student
 	String name;
 	int age;
 	char Section;
-	int percentage; //assuming percentage to be discrete value
+	int percentage; 
 	static int avg_per = 0;
 	
 	Student()

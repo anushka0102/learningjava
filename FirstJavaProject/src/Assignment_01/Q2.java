@@ -11,6 +11,7 @@ public class Q2 {
 		o3.method();
 		//get result
 		o3.print_count();
+		System.out.println("Q2");
 	}
 
 }

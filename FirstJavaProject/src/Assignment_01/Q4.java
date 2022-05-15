@@ -4,7 +4,7 @@ public class Q4 {
 	public static void main(String[] args) {
 		ClassThree obj = new ClassThree(1);
 		ClassThree obj1 = new ClassThree();
-
+		System.out.println("Q4");
 	}
 
 }
@@ -30,7 +30,7 @@ class ClassThree extends ClassTwo
 {
 	ClassThree(int y)
 	{
-		
+
 		System.out.println("Inside third class(Parameterized Constructor)");
 	}
 	ClassThree()

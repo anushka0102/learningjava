@@ -68,7 +68,7 @@ class StringsInJava {
 		//s1.charAt(0) ='h';
 		
 		/*
-		 * Join two java strings - +' can be used to append strings together to form a a new string- nut it is not possible in char array
+		 * Join two java strings - +' can be used to append strings together to form a a new string- but it is not possible in char array
 		 */
 		
 		s1 = s1 + 'a'; // s1 is a new object with new memory
