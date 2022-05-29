@@ -16,6 +16,7 @@ import java.util.Scanner;
  */
 public class ExceptionHandling {
 public static void main(String[] args) {
+
 		
 		except obj = new except(); // creating an object
 		//obj.BasicException();	// calling methods with the help of object 
@@ -191,7 +192,7 @@ class except // Exception handling
 	}
 	
 	void UseThrows_Finally() throws Exception //indicates that this function will throw an exception
-	{
+	{   //throws -- mai isko handle nhi krrha but isko throw krra hu tu krle....must put multiple catch for all exception
 		// Finally ---> whatever is written inside finally block will execute 100% even if there comes an exception just like in catch
 		
 		String a ;
@@ -216,6 +217,7 @@ class except // Exception handling
 		 * Unchecked Exception: Run time catching - Here we are dividing by 0 - which
 		 * will not be caught at compile time - as there is no mistake but caught at
 		 * runtime - because it is mathematically incorrect
+		 * 
 		 */
 		int x = 0;
 		int y = 10;
